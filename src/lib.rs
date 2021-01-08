@@ -1,3 +1,6 @@
+// #[cfg(feature = "monadic")]
+pub mod monadic;
+
 use std::{marker::PhantomData, ops};
 
 #[derive(Debug)]

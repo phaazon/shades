@@ -14,3 +14,10 @@ edition = "2018"
 
 [badges]
 maintenance = { status = "actively-developed" }
+
+[features]
+default = ["monadic"]
+monadic = ["do-notation"]
+
+[dependencies]
+do-notation = { version = "0.1", optional = true }
